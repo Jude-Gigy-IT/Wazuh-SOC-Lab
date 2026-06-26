@@ -11,7 +11,7 @@ The goal of this project was to configure and validate File Integrity Monitoring
 | Component      | Technology                      |
 | -------------- | ------------------------------- |
 | SIEM           | Wazuh                           |
-| Endpoint       | Ubuntu Linux                    |
+| Endpoint       | Windows                         |
 | Virtualization | VirtualBox                      |
 | Monitoring     | File Integrity Monitoring (FIM) |
 
