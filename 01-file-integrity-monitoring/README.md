@@ -51,7 +51,6 @@ The alert confirmed that Wazuh successfully detected the modification and record
 
 ### Wazuh Alert
 
-*Insert screenshot of the generated alert.*
 
 ![Wazuh Alert](screenshots/wazuh-alert1)
 
