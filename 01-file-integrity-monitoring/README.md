@@ -38,7 +38,6 @@ This simulated a real-world scenario where a critical system file is changed. Wh
 
 ### Modified File
 
-*Insert screenshot showing the text that was added to the monitored file.*
 
 ![Modified File](screenshots/modified-file)
 
@@ -54,7 +53,7 @@ The alert confirmed that Wazuh successfully detected the modification and record
 
 *Insert screenshot of the generated alert.*
 
-![Wazuh Alert](screenshots/wazuh-alert.png)
+![Wazuh Alert](screenshots/wazuh-alert1)
 
 ---
 
@@ -66,9 +65,8 @@ MITRE ATT&CK provides a standardized way to categorize attacker behaviors, givin
 
 ### MITRE ATT&CK Information
 
-*Insert screenshot showing the MITRE ATT&CK mapping.*
 
-![MITRE ATT\&CK](screenshots/mitre.png)
+![MITRE ATT\&CK](screenshots/mitre-class)
 
 ---
 
@@ -88,9 +86,8 @@ For this event, Wazuh assigned a **Rule Level of 7**, which represents a **mediu
 
 ### Event Details
 
-*Insert screenshot showing the Rule Level, Event ID, and related metadata.*
 
-![Event Details](screenshots/event-details.png)
+![Event Details](screenshots/event-specifics)
 
 ---
 
