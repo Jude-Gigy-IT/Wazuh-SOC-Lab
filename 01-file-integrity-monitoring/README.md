@@ -32,9 +32,9 @@ After updating the configuration, I restarted the Wazuh agent so the new setting
 
 # Modifying a Monitored File
 
-With File Integrity Monitoring configured, I modified the contents of a file located inside the monitored directory.
+With File Integrity Monitoring set up, I modified a file located inside the monitored directory.
 
-This simulated a real-world scenario where a critical system file is changed. While not every file modification is malicious, unexpected changes can be an early indicator of unauthorized activity or system compromise.
+This simulated a real-world scenario where a critical system file is changed. While not every file modification is malicious, unexpected changes can be an early indicator of unauthorized activity.
 
 ### Modified File
 
@@ -47,7 +47,7 @@ This simulated a real-world scenario where a critical system file is changed. Wh
 
 Almost immediately after saving the file, Wazuh generated a File Integrity Monitoring alert.
 
-The alert confirmed that Wazuh successfully detected the modification and recorded important information that could assist a SOC analyst during an investigation.
+The alert indicated that Wazuh successfully detected the modification and recorded important information that could assist a SOC analyst during an investigation.
 
 ### Wazuh Alert
 
@@ -58,9 +58,9 @@ The alert confirmed that Wazuh successfully detected the modification and record
 
 # MITRE ATT&CK Mapping
 
-Wazuh automatically enriched the alert by mapping it to the MITRE ATT&CK framework.
+Wazuh automatically linked the alert to the proper MITRE ATT&CK framework.
 
-MITRE ATT&CK provides a standardized way to categorize attacker behaviors, giving analysts additional context about the type of activity that generated the alert. While this file modification was expected as part of testing, the MITRE mapping demonstrates how Wazuh helps analysts quickly understand the nature of security events.
+MITRE ATT&CK provides a standardized way to categorize attacker behaviors, giving analysts more context about the type of activity that generated the alert. While this file modification was expected as part of testing, the MITRE mapping demonstrates how Wazuh helps analysts quickly understand the nature of security events.
 
 ### MITRE ATT&CK Information
 
@@ -94,7 +94,7 @@ For this event, Wazuh assigned a **Rule Level of 7**, which represents a **mediu
 
 This project successfully demonstrated that Wazuh can detect changes made to monitored files in near real time.
 
-After modifying a file, Wazuh generated a detailed alert containing contextual information such as the affected file path, severity level, timestamp, and MITRE ATT&CK mapping. These details provide analysts with the information needed to investigate file integrity events efficiently.
+After modifying a file, Wazuh generated a detailed alert containing  information such as the affected file path, severity level, timestamp, and MITRE ATT&CK mapping. These details provide analysts with the information needed to investigate file integrity events efficiently.
 
 ---
 
