@@ -27,7 +27,7 @@ After updating the configuration, I restarted the Wazuh agent so the new setting
 
 *Insert screenshot showing the monitored directory inside `ossec.conf`.*
 
-![Wazuh Configuration](screenshots/ossec-config.png)
+![Wazuh Configuration](screenshots/Screenshot 2026-06-25 212158.png)
 
 ---
 
