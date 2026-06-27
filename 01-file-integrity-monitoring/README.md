@@ -25,9 +25,8 @@ After updating the configuration, I restarted the Wazuh agent so the new setting
 
 ### Wazuh Configuration
 
-*Insert screenshot showing the monitored directory inside `ossec.conf`.*
 
-![Wazuh Configuration](screenshots/Screenshot 2026-06-25 212158.png)
+![Wazuh Configuration](screenshots/ossec.config)
 
 ---
 
@@ -41,7 +40,7 @@ This simulated a real-world scenario where a critical system file is changed. Wh
 
 *Insert screenshot showing the text that was added to the monitored file.*
 
-![Modified File](screenshots/file-modified.png)
+![Modified File](screenshots/modified-file)
 
 ---
 
